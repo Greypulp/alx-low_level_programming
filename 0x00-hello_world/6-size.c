@@ -6,7 +6,7 @@
 int main(void)
 {
 	char a;
-	int b; 
+	int b;
 	long int c;
 	long long d;
 	float f;

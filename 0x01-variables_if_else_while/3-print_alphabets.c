@@ -7,7 +7,6 @@ int main(void)
 {
 	char c;
 	char d;
-	
 	c = 'a';
 	d = 'A';
 	while

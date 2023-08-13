@@ -3,17 +3,17 @@
  * main - Prog Entry point
  * Return: Always (0) (Success)
  */
-int main(void)
+int main()
 {
-	char c;
+	char = c;
 	
 	c = 'a';
 	while
 		(c <= 'z') {
-			if (( c != 'q' && c != 'e') && c <= 'z')
-					putchar(c);
-					c++;
-					}
-					putchar('\n');
-					return (0);
-					}
+		if  ((c != 'q' && c != 'e') && c <= 'z')
+			putchar(c);
+		c++;
+		}
+	putchar('\n');
+	return (0);
+}

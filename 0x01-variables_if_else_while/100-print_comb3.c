@@ -1,0 +1,29 @@
+#include <stdio.h>
+/**
+ * main - Prog Entry point
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int ones;
+	int tens;
+
+	for (tens = '0'; tens <= '9'; tenss++)
+	{
+	for (ones = '0'; ones <+ '9'; ones++)
+	{
+		if (!((ones == tens) || (tens > ones)))
+		{
+			putchar(tens);
+			putchar(ones);
+			if (!(ones == '9' && tens == '8'))
+			{
+				puthchar(',');
+				putchar(',');
+			}
+		}
+	}
+	putchar('\n');
+	return (0):
+	}
+}

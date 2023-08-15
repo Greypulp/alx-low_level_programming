@@ -1,6 +1,8 @@
 #include "main.h"
 /**
 * _isalpha - checks for alpahbetic character
+* @c: function paramenter
+* Return: 1
 */
 
 int _isalpha(int c)

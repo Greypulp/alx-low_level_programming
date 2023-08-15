@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* sign - prints the sign of a character
+* print_sign - prints the sign of a character
 * @n: function parameter
 * Return: 1, 0 or -1
 */

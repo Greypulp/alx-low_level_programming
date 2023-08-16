@@ -11,10 +11,10 @@ int main(void)
 	unsigned long int next;
 	int i;
 
-	printf("%lu, " term1);
+	printf("%lu, ", term1);
 	for (i = 1; i < 50; i++)
 	{
-		printf("%lu", term 2);
+		printf("%lu", term2);
 		next = term1 + term2;
 		term1 = term2;
 		term2 = next;

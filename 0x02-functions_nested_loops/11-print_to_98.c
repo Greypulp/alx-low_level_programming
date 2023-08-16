@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
 * print_to_98 - prints all natural numbers
+* @n: number to start from
 * Return: 0
 */
 

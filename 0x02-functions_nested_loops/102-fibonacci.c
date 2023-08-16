@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - program to find the frist 50 Fibonachi numbers 
- * Retrun: 0
- */
+* main - program to find the frist 50 Fibonachi numbers
+* Retrun: 0
+*/
 
 int main(void)
 {

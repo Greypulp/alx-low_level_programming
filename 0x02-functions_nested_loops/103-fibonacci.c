@@ -8,7 +8,7 @@ int main(void)
 {
 	int limit = 4000000;
 	int term1;
-	int  term2;
+	int term2;
 	int next;
 	int sum = 2;
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - program to find fisrt fifty fibonach numbers
+ * main - prints the first 52 fibonacci numbers
 * Retrun: 0
 */
 

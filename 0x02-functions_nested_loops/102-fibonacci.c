@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - program to find the frist 50 Fibonachi numbers
+ * main - program to find fisrt fifty fibonach numbers
 * Retrun: 0
 */
 

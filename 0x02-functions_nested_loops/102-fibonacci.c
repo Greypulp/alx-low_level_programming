@@ -5,6 +5,7 @@
 */
 
 int main(void)
+
 {
 	unsigned long int term1 = 1;
 	unsigned long int term2 = 2;

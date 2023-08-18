@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - fizz buzz test
+ * main - print 1 t0 100 and Fizzbuzz
+ *
  * Return: 0
  */
-
 int main(void)
 {
 	int i;

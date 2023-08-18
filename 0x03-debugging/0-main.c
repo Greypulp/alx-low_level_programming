@@ -1,15 +1,13 @@
 #include "main.h"
 /**
- * main - tests functions that prints if integeris postive or negative
- * Return: 0
- */
-
+* main - prints if integeris postive or negative
+* Return: 0
+*/
 int main(void)
 {
 	int i;
 
 	i = 0;
 	positive_or_negative(i);
-
 	return (0);
 }

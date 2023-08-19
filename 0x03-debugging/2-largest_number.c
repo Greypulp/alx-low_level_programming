@@ -10,9 +10,6 @@
 
 int largest_number(int a, int b, int c)
 {
-	int a = 972;
-	int b = -98;
-	int c = 0;
 	int largest;
 
 	if (a >= b && a >= c)

@@ -1,8 +1,6 @@
-#include "main.h"
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#define PASSWORD_LENGTH 10
 
 /**
  * main - Generates random valid passwords for the
@@ -10,18 +8,8 @@
  * Return: Always 0.
  */
 int main(void)
+
 {
-	char password[PASSWORD_LENGTH + 1];
-
-	srand(time(NULL));
-	for (int i = 0; i < PASSWORD_LENGTH; i++)
-	{
-		password[i] = (char)(rand() % (126 - 33 + 1) + 33);
-	}
-	password[PASSWORD_LENGTH] = '\0';
-	printf("Random password: %s\n", password);
-	return (0);
-
 	char password[84];
 	int index = 0, sum = 0, diff_half1, diff_half2;
 

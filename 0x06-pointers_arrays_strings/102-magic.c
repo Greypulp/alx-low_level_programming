@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - adding a line to code
- * Return: 0
  */
 int main(void)
 {

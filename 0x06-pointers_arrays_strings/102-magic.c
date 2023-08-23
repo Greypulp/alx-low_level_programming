@@ -1,7 +1,5 @@
 #include <stdio.h>
-/**
- * main - adding a line to code
- */
+
 int main(void)
 {
 	int n;

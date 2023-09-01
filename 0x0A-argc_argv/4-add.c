@@ -7,24 +7,40 @@
  * main - Prints the sum of args positive numbers
  * @argc: argument count
  * @argv: argument vector
+ *
  * Return: Always zero
  */
 int main(int argc, char *argv[])
 {
-	int i, j, add = 0;
-
-	for (i = 1; i < argc; i++)
+	int i;
+	unsigned int k, sum = 0;
+	char *e;
+	
+	if (argc > 1)
 	{
-		for (j = 0; argv[i][j] != '\0'; j++)
+		for (i = 1; i < argc; i++)
 		{
-			if (argv[i][j])
+			e = argv[i];
+
+			for (k = 0; k < strlen(e); k++)
 			{
-				printf("Error\n");
-				return (1);
+				if (e[k] < 48 || e[k] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
+
+			sum += atoi(e);
+			e++;
 		}
-		add += atoi(argv[i]);
+
+		printf("%d\n", sum);
 	}
-	printf("%d\n", add);
+	else
+	{
+		printf("0\n");
+	}
+
 	return (0);
 }

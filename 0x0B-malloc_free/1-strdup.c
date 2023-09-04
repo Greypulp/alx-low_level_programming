@@ -4,7 +4,7 @@
 /**
  *   * _strdup - Duplicate a string
  *     * @str: the string to duplicate
- *       *
+ * @strdout: input
  *         * Return: the string duplicated
  */
 char *_strdup(char *str)

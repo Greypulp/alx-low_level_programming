@@ -4,35 +4,29 @@
 /**
  *   * _strdup - Duplicate a string
  *     * @str: the string to duplicate
- * @strdout: input
+ *       *
  *         * Return: the string duplicated
  */
 char *_strdup(char *str)
 {
-	size_t i, j;
-	char *strdout;
+	int a = 0, i = 1;
+	char *s;
 
 	if (str == NULL)
-	{
-		return ("NULL");
-	}
-
-	i = 0;
-	while (str[i] != '\0')
+		return (NULL);
+	while (str[i])
 	{
 		i++;
 	}
-
-	strdout = (char *)malloc(sizeof(char) * (i + 1));
-
-	if (strdout == NULL)
-	{
+	s = malloc((sizeof(char) * i) + 1);
+	
+	if (s == NULL)
 		return (NULL);
-	}
-
-	for (j = 0; j <= i; j++)
+	while (a < i)
 	{
-		strdout[j] = str[j];
+		s[a] = str[a];
+		a++;
 	}
-	return (strdout);
+	s[a] = '\0';
+	return (s);
 }
